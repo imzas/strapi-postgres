@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "results",
+  "info": {
+    "name": "Result"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "student_name": {
+      "type": "string",
+      "required": true
+    },
+    "marks_obtained": {
+      "type": "decimal"
+    }
+  }
+}
